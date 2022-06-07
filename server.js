@@ -7,27 +7,35 @@ app.use(cors())
 
 const tmnt = {
     'leonardo':{
-        'color': 'blue',
-        'weapon': '',
-        'attitude': ''
+        'color': 'Ocean blue',
+        'weapon': 'Katanas',
+        'attitude': 'Calm, cool and collected'
 
     },
-    'matcha':{
-        'type': 'green',
-        'origin': 'Yo mommas house',
-        'waterTemp': 200,
-        'steepTimeSeconds': 180,
-        'caffeinated': false,
-        'flavor': 'delicious'
+    'raphael':{
+        'color': 'Red',
+        'weapon': 'Sai',
+        'attitude': 'Rebellious, cynical and quick witted'
+
+    },
+    'donatello':{
+        'color': 'Purple',
+        'weapon': 'Oak Bō',
+        'attitude': 'Smart and gentle'
+
+    },
+    'michelangelo':{
+        'color': 'Orange',
+        'weapon': 'Nunchucks',
+        'attitude': 'Chill dude'
+
     },
     'unknown':{
-        'type': 'unknown',
-        'origin': 'unknown',
-        'waterTemp': 0,
-        'steepTimeSeconds': 0,
-        'caffeinated': false,
-        'flavor': 'unknown'
-    },
+        'color': 'unknown',
+        'weapon': 'unknown',
+        'attitude': 'unknown'
+
+    }
 }
 
 
